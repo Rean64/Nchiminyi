@@ -75,10 +75,13 @@ body{
   opacity: 1;
 }
 
-.container-xxl{
-  width: 100% !important;
+.container-xxl {
+  max-width: 100% !important;
 }
 
+.container-xl {
+   max-width: 90% !important;
+}
 /*** Button ***/
 .btn {
   font-family: "Poppins", sans-serif;
